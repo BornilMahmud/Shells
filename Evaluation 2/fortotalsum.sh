@@ -1,12 +1,8 @@
 #!/bin/bash
 
-echo "input a number "
-read n 
-
-sum=0
-for ((i=1; i<=n; i++))
- do 
-   sum=$((sum +i))
-done
-
-echo $sum 
+i=1
+while [ $i -le 89 ]
+do 
+  echo "$i"
+  i=$((i+2))
+done 
